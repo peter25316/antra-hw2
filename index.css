@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    background: #000000;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card {
+    display: flex;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1250px;
+    min-width: 1000px;
+    margin: 20px auto 30px;
+}
+
+hr {
+    border: 3px solid #222222;
+}
+
+.msg-box {
+    width: 40%;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.img-box {
+    display: flex;
+    width: 40%;
+}
+
+
+.card-img {
+    width: 100%;
+}
+
+.download-animation-card {
+    display: flex;
+    position: absolute;
+    background: #000000;
+    justify-content: space-between;
+    width: 25%;
+    top: 67%;
+    left: 6.4%;
+    align-items: center;
+    border: 3px solid #222222;
+    border-radius: 10px;
+    height: 80px;
+    padding: 8px 10px;
+}
+
+.download-animation-card img {
+    height: 100%;
+}
+
+.stranger-things-msg {
+    margin: 0 0;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.download-msg {
+    margin: 0 0;
+    font-size: 80%;
+    color: rgb(42, 111, 220);
+}
+
+#download-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.mac-video {
+    position: absolute;
+    width: 24.3%;
+    top: 11%;
+    left: 67.6%;
+    z-index: -1;
+}
+
+.tv-video {
+    position: absolute;
+    width: 29%;
+    top: 21.3%;
+    left: 65.3%;
+    z-index: -1;
+}
